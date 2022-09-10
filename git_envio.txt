@@ -1,0 +1,24 @@
+GIT E GITHUB
+
+git init
+git staus
+git add "nomedoarquivo.txt"
+       para inclui um arquivo especifico
+
+git status
+       para verificar se foi add
+git add .
+       para add tudos os arquivos
+git commit -m "Primeiro commit"
+       para descrever o que foi enviado
+
+git config --global user.email "lima.bcf@gmail.com"
+git config --global user.name "Diego"
+
+git commit -m "primeiro commit"
+        sempre pois o --global
+
+git remote add origin https://github.com/ddiiego/Rocketset.git
+        apontando pro github repositorio
+git push --set-upstrea origin master
+        para enviar
